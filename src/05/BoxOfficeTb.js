@@ -9,7 +9,8 @@ export default function BoxOfficeTb() {
 
 
     const handleClick = (mv) => {
-
+        //할당연산자로 state 변수 변경 불가 => 업데이트 함수 변경
+        //selMv = mv x사용x
         setMv(mv);
     }
 

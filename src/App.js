@@ -9,7 +9,9 @@ import './App.css';
 //import MyDiv1 from './03/MyDiv1';
 // import MyList from './04/MyList';
 //import MyListMain from './04/MyListMain';
-import BoxOfficeTb from './05/BoxOfficeTb';
+//import BoxOfficeTb from './05-1/BoxOfficeTb';
+//import Lotto from './06/Lotto';
+import FoodMain from './07/FoodMain';
 
 
 function App() {
@@ -31,7 +33,7 @@ function App() {
       </header>
       <main className='grow flex flex-col 
       justify-center items-center '>
-          <BoxOfficeTb />
+          <FoodMain />
           
       </main>
       <footer className='flex justify-center items-center

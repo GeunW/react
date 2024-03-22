@@ -11,7 +11,8 @@ import './App.css';
 //import MyListMain from './04/MyListMain';
 //import BoxOfficeTb from './05-1/BoxOfficeTb';
 //import Lotto from './06/Lotto';
-import FoodMain from './07/FoodMain';
+//import FoodMain from './07/FoodMain';
+import MyClock from './08/MyClock'
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
       </header>
       <main className='grow flex flex-col 
       justify-center items-center '>
-          <FoodMain />
+          <MyClock />
           
       </main>
       <footer className='flex justify-center items-center

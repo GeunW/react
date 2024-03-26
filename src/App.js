@@ -12,7 +12,11 @@ import './App.css';
 //import BoxOfficeTb from './05-1/BoxOfficeTb';
 //import Lotto from './06/Lotto';
 //import FoodMain from './07/FoodMain';
-import MyClock from './08/MyClock'
+//import MyClock from './08/MyClock'
+//import TrafficMain from './09/TrafficMain';
+//import RefVal from './10/RefVal';
+//import RefInput from './10/RefInput';
+import BoxOffice from './00/BoxOffice'
 
 
 function App() {
@@ -34,13 +38,13 @@ function App() {
       </header>
       <main className='grow flex flex-col 
       justify-center items-center '>
-          <MyClock />
+          <BoxOffice />
           
       </main>
       <footer className='flex justify-center items-center
                           h-20 bg-slate-800
                           text-base text-white'>
-          ⓒ 2024 KimKyungMin. All right reserved. 
+          ⓒ 2024 JeonGeunwoo. All right reserved. 
       </footer>
     </div>
   );

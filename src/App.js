@@ -16,7 +16,9 @@ import './App.css';
 //import TrafficMain from './09/TrafficMain';
 //import RefVal from './10/RefVal';
 //import RefInput from './10/RefInput';
-import BoxOffice from './00/BoxOffice'
+//import BoxOffice from './00/BoxOffice'
+//import GalleryCard from './11/GalleryCard';
+import GalleryMain from './11/GalleryMain';
 
 
 function App() {
@@ -37,8 +39,8 @@ function App() {
       {/* ///<div><FaHome className='text-2xl text-black'/></div> */}
       </header>
       <main className='grow flex flex-col 
-      justify-center items-center '>
-          <BoxOffice />
+      justify-center items-center p-5'>
+          <GalleryMain />
           
       </main>
       <footer className='flex justify-center items-center

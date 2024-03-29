@@ -18,7 +18,8 @@ import './App.css';
 //import RefInput from './10/RefInput';
 //import BoxOffice from './00/BoxOffice'
 //import GalleryCard from './11/GalleryCard';
-import GalleryMain from './11/GalleryMain';
+//import GalleryMain from './11/GalleryMain';
+import FestivalMain from './Festival/FestivalMain';
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
       </header>
       <main className='grow flex flex-col 
       justify-center items-center p-5'>
-          <GalleryMain />
+          <FestivalMain />
           
       </main>
       <footer className='flex justify-center items-center

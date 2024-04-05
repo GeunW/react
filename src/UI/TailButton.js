@@ -18,9 +18,12 @@ export default function button({ caption, handleClick, color }) {
     'lime': 'hover:bg-lime-900'
 
   }
-  const bColor = `p-2 rounded-md ${colorObj[color]} text-white ${hoverObj[color]}`;
+  const bColor = `px-4 py-2 m-2 rounded-md
+                  w-full
+                  ${colorObj[color]}
+                  ${hoverObj[color]} text-white`;
 
-
+                  
   return (
 
     <div>

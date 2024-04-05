@@ -26,6 +26,9 @@ import Frcst from './14/Frcst';
 // import UltraSrtFrcst from './14/UltraSrtFrcst';
 // import VilageFrcst from './14/VilageFrcst';
 import FrcstList from './14/FrcstList';
+//import Recoil from './15/Recoil';
+import RecoilMain from './15/RecoilMain';
+
 
 
 function App() {
@@ -46,6 +49,8 @@ function App() {
           <div>리액트실습</div>
           <div className='flex justify-end '>
 
+            <div className='mx-2 p-2 hover:bg-blue-400 rounded-md hover:text-white'>
+              <Link to='/r1'>Recoil</Link></div>
             <div className='mx-2 p-2 hover:bg-blue-400 rounded-md hover:text-white'>
               <Link to='/Frcst'>예보</Link></div>
             <div className='mx-2 p-2 hover:bg-blue-400 rounded-md hover:text-white'>
@@ -75,6 +80,7 @@ function App() {
             {/* <Route path='/UltraSrtFrcst/:dt/:area/:x/:y' element={<UltraSrtFrcst />} />
             <Route path='/VilageFrcst/:dt/:area/:x/:y' element={<VilageFrcst />} /> */}
             <Route path='/flist' element={<FrcstList />} />
+            <Route path='/r1' element={<RecoilMain/>} />
           </Routes>
         </main>
 

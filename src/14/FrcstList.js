@@ -33,7 +33,7 @@ export default function FrcstList() {
 
     //데이터 가져오기
     useEffect(() => {
-        let url =''
+        let url = ''
         if (gubun === "초단기예보") {
             url = `https://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst?`
             url = url + `serviceKey=${process.env.REACT_APP_MY_APIKEY}`
@@ -113,11 +113,11 @@ export default function FrcstList() {
 
 
     return (
-        <div>
+        <div className = "w-full">
             <div className="w-11/12 justify-start 
                     grid grid-cols-1 md:grid-cols-2 p-2 gap-2">
-                <div className="text-lg font-bold p-4">
-                    {`${area} ${gubun} (${dt.substring(0, 4)}-${dt.substring(4, 6)}-${dt.substring(6, 8)})일자`}
+                <div className="flex items-center content-center text-xl text-center font-bold p-4 ">
+                    {`${area} ${gubun} : (${dt.substring(0, 4)}-${dt.substring(4, 6)}-${dt.substring(6, 8)})`}
                 </div>
                 <div className="p-4">
                     <TailSelect ops={ops}
